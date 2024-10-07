@@ -1,0 +1,2 @@
+curl -v https://name.my.salesforce.com/services/oauth2/token
+-d "grant_type=password" -d "client_id=test" -d "client_secret=test" -d "username=test@test.com" -d "password=test123" -H "X-PrettyPrint:1"
